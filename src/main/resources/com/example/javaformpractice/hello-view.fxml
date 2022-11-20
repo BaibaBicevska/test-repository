@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="TOP_CENTER" prefHeight="590.0" prefWidth="700.0" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaformpractice.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Text fx:id="nameText" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" />
+   <Text fx:id="nameText1" strokeType="OUTSIDE" strokeWidth="0.0" text="" />
+   <TextField fx:id="inputName" prefHeight="26.0" prefWidth="100.0" />
+   <Text fx:id="genderText1" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender" />
+   <Text fx:id="genderText" strokeType="OUTSIDE" strokeWidth="0.0" text="" />
+   <TextField fx:id="inputGender" prefHeight="26.0" prefWidth="100.0" />
+   <Text fx:id="ageText1" strokeType="OUTSIDE" strokeWidth="0.0" text="Age" />
+    <Text fx:id="ageText" strokeType="OUTSIDE" strokeWidth="0.0" text="" />
+   <TextField fx:id="inputAge" prefHeight="26.0" prefWidth="100.0"  />
+    <Button fx:id="submitButton" onAction="#onButtonClick" text="Submit" />
+</VBox>
