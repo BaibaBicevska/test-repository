@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaformpractice.HelloFeedController">
+   <children>
+      <Button layoutX="326.0" layoutY="123.0" mnemonicParsing="false" onAction="#Metal" text="Metal">
+         <effect>
+            <Glow />
+         </effect>
+      </Button>
+      <Button fx:id="Pancake" layoutX="235.0" layoutY="187.0" mnemonicParsing="false" onAction="#Pancake" text="Pancake" />
+      <Button layoutX="141.0" layoutY="190.0" mnemonicParsing="false" onAction="#pan" text="Pan" />
+      <Button accessibleRole="CHECK_BOX" layoutX="89.0" layoutY="132.0" mnemonicParsing="false" onAction="#Book" text="Book" />
+      <Button layoutX="349.0" layoutY="200.0" mnemonicParsing="false" onAction="#Phone" text="Phone" />
+      <Button layoutX="278.0" layoutY="309.0" mnemonicParsing="false" onAction="#Shoe" text="Shoe" />
+      <Button fx:id="Car" layoutX="115.0" layoutY="273.0" mnemonicParsing="false" onAction="#Car" text="Car" />
+      <Text fill="#ed6876" layoutX="111.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose the food which you will eat?">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#591bdf" layoutX="258.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Human" textAlignment="CENTER">
+         <font>
+            <Font name="Jokerman" size="26.0" />
+         </font>
+      </Text>
+      <Button fx:id="Coffee" layoutX="67.0" layoutY="200.0" mnemonicParsing="false" onAction="#Coffee" text="Coffee" />
+      <Button fx:id="Orange" layoutX="235.0" layoutY="244.0" mnemonicParsing="false" onAction="#Orange" text="Orange" />
+      <Button layoutX="207.0" layoutY="119.0" mnemonicParsing="false" onAction="#Lamp" text="Lamp" />
+      <Button fx:id="Cake" layoutX="349.0" layoutY="257.0" mnemonicParsing="false" onAction="#Button" text="Cake" />
+      <Text fx:id="Text1" fill="#a069f0" layoutX="388.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" underline="true">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Text>
+      <Text fx:id="Text2" fill="#a069f0" layoutX="40.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" underline="true">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Text>
+      <Text fx:id="Text3" fill="#a069f0" layoutX="377.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" underline="true">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Text>
+      <Text fx:id="Text4" fill="#a069f0" layoutX="67.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" underline="true">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

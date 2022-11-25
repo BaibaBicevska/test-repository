@@ -113,6 +113,6 @@ public class BlackKnight {
         }
 
     public static boolean isAlive() {
-    return isAlive();
+    return true;
     }
 }
